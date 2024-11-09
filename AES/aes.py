@@ -2,7 +2,7 @@ import galois
 #from numpy.lib.polynomial import poly
 print("Aufgabe(1) Schlüsselfahrplan in AES\n")
 
-sbox = open("c:/Users/moham/OneDrive - Hochschule Albstadt-Sigmaringen/HS Albsig/Semester 4/Betriebssicherheit/Praktikum/New folder/AES/sbox", "r").read().split(" ")
+sbox = open("the Path of the sbox file here /sbox", "r").read().split(" ")
 
 def g_fun(x: list, round: int) -> list:
     if len(x) != 4:
